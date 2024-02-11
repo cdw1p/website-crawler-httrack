@@ -1,4 +1,5 @@
 const axios = require('axios')
+const readline = require('readline');
 const moment = require('moment')
 const cheerio = require('cheerio')
 const path = require('path')
@@ -6,10 +7,23 @@ const fs = require('fs-extra')
 const URL = require('url').URL
 require('colors')
 
+
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+rl.question('Masukkan URL awal: ', (url) => {
+  const startUrl = url;
+  console.log('URL awal:', startUrl);
+  rl.close();
+});
+
 /**
  * Global variables
  */
-const startUrl = '' // Your target website
+
 const visitedUrls = new Set()
 
 /**
