@@ -32,14 +32,10 @@ node index.js
 
 ## Dependencies
 
-axios: "^1.6.7"
-cheerio: "^1.0.0-rc.12"
-colors: "^1.4.0"
-fs-extra: "^11.2.0"
-moment: "^2.30.1"
-url: "^0.11.3"
-readline: "^1.4.0"
-
-## License
-
-This project is licensed under the ISC License. See the LICENSE file for details.
+* axios: "^1.6.7"
+* cheerio: "^1.0.0-rc.12"
+* colors: "^1.4.0"
+* fs-extra: "^11.2.0"
+* moment: "^2.30.1"
+* url: "^0.11.3"
+* readline: "^1.4.0"
